@@ -30,4 +30,11 @@ public class Display extends CheckDetail{
             System.out.println("Mobile number is not valid");
         }
     }
+    public void displayValidPassword(){
+        if(checkPassword() == true){
+            System.out.println("Password is valid ");
+        }else{
+            System.out.println("Password is not valid");
+        }
+    }
 }

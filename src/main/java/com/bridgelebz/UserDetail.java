@@ -5,6 +5,7 @@ public class UserDetail {
     private String lastName;
     private String email;
     private String mobileNumber;
+    private String password;
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
@@ -28,5 +29,11 @@ public class UserDetail {
     }
     public String getMobileNumber(){
         return mobileNumber;
+    }
+    public void setPassword(String password){
+        this.password = password;
+    }
+    public String getPassword(){
+        return password;
     }
 }

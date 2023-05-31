@@ -11,9 +11,11 @@ public class EnterDetail {
         user1.setLastName("Jha");
         user1.checkLastName();
         user1.displayValidLastName();
-        user1.setEmail("adn@sahu");
+        user1.setEmail("abc.xyz@sdf.co.in");
         user1.displayValidEmail();
         user1.setMobileNumber("91 9845673245");
         user1.displayValidMobNumber();
+        user1.setPassword("3485093286254");
+        user1.displayValidPassword();
     }
 }
