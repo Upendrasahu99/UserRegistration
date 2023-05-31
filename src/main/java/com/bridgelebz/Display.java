@@ -8,4 +8,11 @@ public class Display extends CheckDetail{
             System.out.println("First name not valid");
         }
     }
+    public void displayValidLastName(){
+        if(checkLastName() == true){
+            System.out.println("Last name is valid");
+        }else {
+            System.out.println("Last name is not valid");
+        }
+    }
 }
