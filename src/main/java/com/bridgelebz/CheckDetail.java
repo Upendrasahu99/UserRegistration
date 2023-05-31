@@ -13,4 +13,7 @@ public class CheckDetail extends UserDetail {
     public boolean checkEmail(){ //doubt
         return Pattern.matches("[a-z0-9].[a-z]?@[a-z].[co].[in]?",getEmail());
     }
+    public boolean checkMobileNUmber(){
+        return Pattern.matches("[91]+[\\s]+[1-9]+[0-9]{9}",getMobileNumber());
+    }
 }
