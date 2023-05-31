@@ -13,5 +13,7 @@ public class EnterDetail {
         user1.displayValidLastName();
         user1.setEmail("adn@sahu");
         user1.displayValidEmail();
+        user1.setMobileNumber("91 9845673245");
+        user1.displayValidMobNumber();
     }
 }

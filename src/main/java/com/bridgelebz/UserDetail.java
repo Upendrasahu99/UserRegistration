@@ -4,7 +4,7 @@ public class UserDetail {
     private String firstName;
     private String lastName;
     private String email;
-
+    private String mobileNumber;
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
@@ -22,5 +22,11 @@ public class UserDetail {
     }
     public String getEmail(){
         return email;
+    }
+    public void setMobileNumber(String  mobileNumber){
+        this.mobileNumber = mobileNumber;
+    }
+    public String getMobileNumber(){
+        return mobileNumber;
     }
 }

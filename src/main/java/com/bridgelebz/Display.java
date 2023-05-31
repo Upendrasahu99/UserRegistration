@@ -17,9 +17,17 @@ public class Display extends CheckDetail{
     }
     public void displayValidEmail(){
         if(checkEmail() == true){
-            System.out.println("Email is ");
+            System.out.println("Email is valid");
         }else {
             System.out.println("Email is not valid");
+        }
+    }
+    public void displayValidMobNumber(){
+        if(checkMobileNUmber() == true){
+            System.out.println("Mobile number is valid");
+        }
+        else{
+            System.out.println("Mobile number is not valid");
         }
     }
 }
