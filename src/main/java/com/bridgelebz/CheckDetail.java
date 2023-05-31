@@ -10,4 +10,7 @@ public class CheckDetail extends UserDetail {
     public boolean checkLastName(){
         return Pattern.matches("[A-Z][a-z]{2,}",getLastName());
     }
+    public boolean checkEmail(){ //doubt
+        return Pattern.matches("[a-z0-9].[a-z]?@[a-z].[co].[in]?",getEmail());
+    }
 }

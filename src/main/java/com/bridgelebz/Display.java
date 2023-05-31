@@ -15,4 +15,11 @@ public class Display extends CheckDetail{
             System.out.println("Last name is not valid");
         }
     }
+    public void displayValidEmail(){
+        if(checkEmail() == true){
+            System.out.println("Email is ");
+        }else {
+            System.out.println("Email is not valid");
+        }
+    }
 }

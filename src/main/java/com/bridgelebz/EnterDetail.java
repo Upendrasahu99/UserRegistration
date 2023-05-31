@@ -11,5 +11,7 @@ public class EnterDetail {
         user1.setLastName("Jha");
         user1.checkLastName();
         user1.displayValidLastName();
+        user1.setEmail("adn@sahu");
+        user1.displayValidEmail();
     }
 }
