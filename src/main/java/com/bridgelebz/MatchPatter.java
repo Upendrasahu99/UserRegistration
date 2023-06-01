@@ -2,7 +2,7 @@ package com.bridgelebz;
 
 import java.util.regex.Pattern;
 
-public class CheckDetail extends UserDetail {
+public class MatchPatter extends UserDetail {
 
     public boolean checkFirstName(){
         return Pattern.matches("[A-Z][a-z]{2,}",getFirstName());

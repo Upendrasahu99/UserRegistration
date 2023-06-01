@@ -1,6 +1,6 @@
 package com.bridgelebz;
 
-public class Display extends CheckDetail{
+public class Display extends MatchPatter {
     public  void displayValidFirstName(){
         if(checkFirstName() == true){
             System.out.println("First name is valid");
