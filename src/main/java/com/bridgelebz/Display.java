@@ -2,21 +2,21 @@ package com.bridgelebz;
 
 public class Display extends MatchPatter {
     public  void displayValidFirstName(){
-        if(checkFirstName() == true){
+        if(checkFirstName()){
             System.out.println("First name is valid");
         }else {
             System.out.println("First name not valid");
         }
     }
     public void displayValidLastName(){
-        if(checkLastName() == true){
+        if(checkLastName()){
             System.out.println("Last name is valid");
         }else {
             System.out.println("Last name is not valid");
         }
     }
     public void displayValidEmail(){
-        if(checkEmail() == true){
+        if(checkEmail()){
             System.out.println("Email is valid");
         }else {
             System.out.println("Email is not valid");
