@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8b1b9305-6de4-4abb-b01d-96b45bba7590" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelebz/CheckDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelebz/CheckDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelebz/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelebz/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelebz/EnterDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelebz/EnterDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelebz/MatchPatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelebz/MatchPatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelebz/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelebz/UserDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -45,26 +57,111 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/JAVA/BridgeLabzClass/ClassPractice/ClassPractice"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/JAVA/BridgeLabzClass/Assignment/UserRegistrationProblem",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="EnterDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.EnterDetail" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bridgelebz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CheckFirstName">
+    <configuration name="CheckFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistrationProblem.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelebz.*" />
+          <option name="PATTERN" value="com.bridgelebz.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelebz.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.Test.CheckFirstName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFirstName.checkEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelebz.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelebz.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.Test.CheckFirstName" />
+      <option name="METHOD_NAME" value="checkEmailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFirstName.checkFirstNameTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelebz.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelebz.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.Test.CheckFirstName" />
+      <option name="METHOD_NAME" value="checkFirstNameTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFirstName.checkLastNameTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelebz.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelebz.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.Test.CheckFirstName" />
+      <option name="METHOD_NAME" value="checkLastNameTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFirstName.checkPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelebz.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelebz.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.Test.CheckFirstName" />
+      <option name="METHOD_NAME" value="checkPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnterDetail" />
+        <item itemvalue="JUnit.CheckFirstName" />
+        <item itemvalue="JUnit.CheckFirstName.checkPasswordTest" />
+        <item itemvalue="JUnit.CheckFirstName.checkEmailTest" />
+        <item itemvalue="JUnit.CheckFirstName.checkLastNameTest2" />
+        <item itemvalue="JUnit.CheckFirstName.checkFirstNameTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -89,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
